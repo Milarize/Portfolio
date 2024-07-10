@@ -21,8 +21,8 @@ class Portfolio extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('My Profile'),
-        backgroundColor: const Color.fromARGB(255, 209, 191, 191),
+        title: Text('ประวัติส่วนตัว'),
+        backgroundColor: Color.fromARGB(255, 241, 172, 230),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -30,16 +30,17 @@ class Portfolio extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Center(
-                child: CircleAvatar(
-                  radius: 60,
-                  backgroundImage: AssetImage('images/profile.jpg'),
-                ),
-              ),
+             Center(
+  child: CircleAvatar(
+    radius: 60,
+    backgroundImage: AssetImage('images/profile.jpg'),
+  ),
+),
+
               SizedBox(height: 16),
               Center(
                 child: Text(
-                  'Kulisara Thongngamkhum',
+                  'กุลิสรา ทองามขำ  (มิ้นท์)',
                   style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.bold,
@@ -71,21 +72,21 @@ class Portfolio extends StatelessWidget {
               ),
               SizedBox(height: 8),
               Text(
-                'โรงเรียนลัมแบรต์พิขญาลัย  อ.1 - ป.6 จังหวัด: จันทบุรี',
+                'โรงเรียนลัมแบรต์พิชญาลัย  อ.1 - ป.6 จันทบุรี',
                 style: TextStyle(
                   fontSize: 18,
                 ),
               ),
               SizedBox(height: 8),
               Text(
-                'โรงเรียนแกลงวิทยสถาวร ม.1-ม.6 จังหวัดระยอง',
+                'โรงเรียนแกลงวิทยสถาวร ม.1-ม.6 ระยอง',
                 style: TextStyle(
                   fontSize: 18,
                 ),
               ),
               SizedBox(height: 8),
               Text(
-                'ปัจจุบันกำลังศึกษาอยู่ที่ มหาลัยบูรพา ชั้นปีที่ 4 จังหวัดชลบุรี',
+                'ปัจจุบันกำลังศึกษาอยู่ที่ มหาลัยบูรพา ชั้นปีที่ 4 ชลบุรี',
                 style: TextStyle(
                   fontSize: 18,
                 ),
